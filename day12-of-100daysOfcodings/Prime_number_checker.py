@@ -5,6 +5,6 @@ def is_prime(num):
 
 #isprime = is_prime(73)
 if not is_prime(75):
-    print("Prime")
+    print("It's is a prime number")
 else:
-    print("Not prime")
+    print("It's not a prime number")
