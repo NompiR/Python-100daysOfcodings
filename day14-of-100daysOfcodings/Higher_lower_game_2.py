@@ -1,5 +1,6 @@
 import random
 from arts import logo_higher_lower_game, logo_higher_lower_vs_game
+from game_data import data
 
 def choice_play(my_data):
     '''Choice random data from dict'''
