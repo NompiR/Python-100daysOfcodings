@@ -16,7 +16,7 @@ count_of_lives = 6
 while is_hangman_game_true:
     guessed = ""
 
-   print(f"********* {count_of_lives}/6 LIVE LEFT **********")
+    print(f"********* {count_of_lives}/6 LIVE LEFT **********")
     print(f"Word to guess: {empty_word}")
     guess = input("Guess a letter: ")
     for letters in computer_choose_word:
