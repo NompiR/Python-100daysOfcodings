@@ -77,9 +77,9 @@ while is_coffee_machine_on:
     if select == "off":
         is_coffee_machine_on = False
     elif select == 'report':
-        print(f"Water: {resource["water"]}ml")
-        print(f"Milk: {resource["milk"]}ml")
-        print(f"Coffee: {resource["coffee"]}g")
+        print(f"Water: {resource['water']}ml")
+        print(f"Milk: {resource['milk']}ml")
+        print(f"Coffee: {resource['coffee']}g")
         print(f"Money: ${profit}")
     else:
         drink = MENU[select]
